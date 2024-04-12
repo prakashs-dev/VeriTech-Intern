@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: Poppins;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.container,
+.nav-models {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+  align-items: center;
+}
+
+.nav-models,
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.contact button {
+  margin-left: 20px;
+  background-color: #b41818;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 75px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined,
+i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.home-page {
+  display: flex;
+  /* border: 1px dotted red; */
+  justify-content: space-evenly;
+  margin-top: 70px;
+  margin: 20px 0px;
+}
+
+.blog>p {
+  font-size: 2rem;
+}
+
+#book {
+  margin-top: 20px;
+}
+
+#context {
+  width: 33rem;
+}
+
+#context>button {
+  width: 30%;
+  height: 13%;
+  border: none;
+  background-color: #b41818;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.car-info {
+  padding: 0 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  background-color: #f2f1ff;
+  border-radius: 5px;
+  width: 55%;
+  height: 12.5%;
+  display: flex;
+  gap: 30px;
+}
+
+.card-container {
+  font-size: .9rem;
+  display: flex;
+  gap: 20px;
+}
+
+.cards {
+  margin-top: 3.5%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.card p,
+.extra {
+  margin: 0;
+}
+
+.extra {
+  font-size: .8rem;
+  padding-left: 10px;
+  color: #aaaaaa;
+}
+
+.material-symbols-outlined {
+  margin-right: 5px;
+}
+
+.clr {
+  color: #1da1f2;
+}
+
+.one {
+  border: none;
+}
+
+#search {
+  height: 40px;
+  width: 90px;
+  background-color: #b41818;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  margin-top: 3.5%;
+}
+
+.head,
+.vehicle,
+.about {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#abc {
+  color: #b41818;
+  font-weight: bold;
+}
+
+#def {
+  font-size: 1.2rem;
+}
+
+.ser-cards {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 20px;
+}
+
+.ser-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 220px;
+  height: 350px;
+  padding: 10px 10px 0px 10px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.ser-name {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#img-card img {
+  padding: 10px 10px 0px 10px;
+}
+
+#see-more {
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  font-size: .8rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin-top: 10%;
+}
+
+#see-more:hover {
+  background-color: #b41818;
+  color: white;
+  cursor: pointer;
+}
+
+.vehicle-cards {
+  margin: 20px 0 0 80px;
+  flex: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 21px;
+  grid-row-gap: 70px;
+}
+
+.vehicle-card {
+  width: 70%;
+  background-color: #f2f2f2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 20px 10px 0px 10px;
+  height: 100%;
+}
+
+#car-special span {
+  background-color: #e3f0f8;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+#car-special span p {
+  margin-bottom: 10px;
+  margin: 0;
+  font-size: 10px;
+}
+
+#rent {
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 6%;
+}
+
+.vehicle-card:hover {
+  background-color: #ffffff;
+}
+
+#rent:hover {
+  background-color: #b41818;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+.about {
+  background-color: #E0F7FA;
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 11px;
+  grid-row-gap: 9px;
+}
+
+.left p {
+  text-align: left;
+  width: 20vw;
+  margin-left: 10vw;
+}
+
+.media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+#tbl {
+  flex: 2;
+  width: 80%;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+td:hover {
+  cursor: pointer;
+  color: #E74C3C;
+}
+
+#app-button {
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+#app-button button {
+  font-size: 15px;
+  width: 13%;
+  height: 40px;
+  background-color: #213a50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+#app-button button:hover {
+  color: yellowgreen;
+  cursor: pointer;
+}

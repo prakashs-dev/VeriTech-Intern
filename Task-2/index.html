@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Car Service | rento</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/rento_logo_slogan.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="container">
+        <img src="./assets/rento_logo_slogan.jpg" alt="brand logo" width="8%" />
+        <div class="nav-models">
+          <h3><a href="#home">Home</a></h3>
+          <h3><a href="#services">Service</a></h3>
+          <h3><a href="#vehicle">Vehicle</a></h3>
+          <h3><a href="#about">About</a></h3>
+        </div>
+        <div class="contact">
+          <i class="fa-solid fa-phone"></i>
+          <p>(406) 555-0120</p>
+          <button>Sign In</button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="home__sec">
+        <div class="home-page">
+          <div id="context">
+            <div class="blog">
+              <p>
+                UNLOCK YOUR
+                <i class="fa-solid fa-location-dot" style="color: #f61404"></i>
+              </p>
+              <p>TRAVEL EXPERIENCE</p>
+            </div>
+            <p>
+              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+              used in laying out print, graphic or web designs. The passage is
+              attributed to an unknown typesetter in the 15th century who is
+              thought to have scrambled parts of Cicero's De Finibus Bonorum et
+              Malorum for use in a type specimen book. It usually begins with
+            </p>
+            <button id="book">Booking Now</button>
+          </div>
+          <div class="car">
+            <img src="./assets/car1.jpg" alt="car" />
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="car-info">
+          <div class="card-container">
+            <div class="cards">
+              <div class="card">
+                <span class="material-symbols-outlined clr"> location_on </span>
+                <p>Pick Up Address</p>
+                <span class="material-symbols-outlined"> expand_more </span>
+              </div>
+              <p class="extra">Enter pick up address</p>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <span class="material-symbols-outlined clr"> distance </span>
+                <p>Drop Off Address</p>
+                <span class="material-symbols-outlined"> expand_more </span>
+              </div>
+              <p class="extra">Enter drop off address</p>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <span class="material-symbols-outlined clr">
+                  calendar_month
+                </span>
+                <p>Pick Up Date</p>
+                <span class="material-symbols-outlined"> expand_more </span>
+              </div>
+              <p class="extra">Enter pick up date</p>
+            </div>
+            <div class="cards one">
+              <div class="card">
+                <span class="material-symbols-outlined clr"> schedule </span>
+                <p>Pick Up Time</p>
+                <span class="material-symbols-outlined"> expand_more </span>
+              </div>
+              <p class="extra">Enter pick up time</p>
+            </div>
+          </div>
+          <button id="search">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="services">
+        <div class="head">
+          <p id="abc">Our Services</p>
+          <p id="def">OUR BEST SERVICES FOR YOU</p>
+        </div>
+        <div class="ser-cards">
+          <div class="ser-card">
+            <div id="img-card">
+              <img src="./assets/ser1.jpg" alt="" width="86%" />
+            </div>
+            <p class="ser-name">ONLINE BOOKING</p>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+            in laying out print, graphic or web designs.
+            <button id="see-more">See More</button>
+          </div>
+          <div class="ser-card">
+            <div id="img-card">
+              <img src="./assets/ser1.jpg" alt="" width="86%" />
+            </div>
+            <p class="ser-name">CITY TRANSPORT</p>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+            in laying out print, graphic or web designs.
+            <button id="see-more">See More</button>
+          </div>
+          <div class="ser-card">
+            <div id="img-card">
+              <img src="./assets/ser1.jpg" alt="" width="86%" />
+            </div>
+            <p class="ser-name">SPECIAL EVENT</p>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+            in laying out print, graphic or web designs.
+            <button id="see-more">See More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vehicle -->
+    <section id="vehicle">
+      <div class="vehicle">
+        <div class="veh">
+          <p id="abc">Our Vehicle</p>
+          <p id="def">EXPLORE OUR TOP DEAL</p>
+        </div>
+        <div class="vehicle-container">
+          <div class="vehicle-cards">
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Audi</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>BMW</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Ford</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Honda</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Hyundai</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Toyota</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Renault</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+            <div class="vehicle-card">
+              <img src="./assets/ser3.png" alt="" width="250px" />
+              <p>Volkswagen</p>
+              <div id="car-special">
+                <span class="material-symbols-outlined">
+                  groups
+                  <p>3 Seat</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  local_gas_station
+                  <p>Disel</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  speed
+                  <p>120 km</p>
+                </span>
+                <span class="material-symbols-outlined">
+                  ac_unit
+                  <p>AC</p>
+                </span>
+              </div>
+              <button id="rent">Rent Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Abort -->
+    <footer id="about">
+      <div class="about">
+        <div class="left">
+          <img src="./assets/new_rento.png" alt="" width="30%" />
+          <p>
+            It's nerver ending battle of making your cars better and also trying
+            to be better yourself
+          </p>
+          <div class="media-icons">
+            <i class="fa-brands fa-facebook" style="color: #0f75c2"></i>
+            <i class="fa-brands fa-twitter" style="color: #74c0fc"></i>
+            <i class="fa-brands fa-instagram" style="color: #255ab6"></i>
+            <i class="fa-brands fa-linkedin" style="color: #1788de"></i>
+          </div>
+        </div>
+        <div class="right">
+          <table id="tbl">
+            <tr>
+              <th>Account</th>
+              <th>About</th>
+              <th>Company</th>
+            </tr>
+            <tr>
+              <td>Profile</td>
+              <td>Services</td>
+              <td>Community</td>
+            </tr>
+            <tr>
+              <td>Settings</td>
+              <td>Pricing</td>
+              <td>Help center</td>
+            </tr>
+            <tr>
+              <td>Billing</td>
+              <td>Contact</td>
+              <td>Support</td>
+            </tr>
+            <tr>
+              <td>Notification</td>
+            </tr>
+          </table>
+          <div id="app-button">
+            <p>Download Now</p>
+            <button>Play Store</button>
+            <button>App Store</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
